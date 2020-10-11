@@ -3,6 +3,10 @@
     src: url("_JetBrainsMono-Light.ttf") format("truetype");
 }
 
+html {
+    background: #2f2f31;
+}
+
 #card, #back_card {
     font-family: JetBrains, sans-serif;
     font-size: 20px;
@@ -13,7 +17,7 @@
 html pre {
     background: #2F2F31 !important;
     width: auto;
-    overflow: auto;
+    overflow: visible;
 }
 
 code {
