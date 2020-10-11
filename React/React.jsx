@@ -12,7 +12,7 @@ import React from "react"
 import Prism from "prismjs"
 export class PrismCode extends React.Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.ref = React.createRef()
   }
   componentDidMount() {
@@ -27,7 +27,7 @@ export class PrismCode extends React.Component {
     }
   }
   render() {
-    const { code, plugins, language } = this.props
+    const { code, plugins, language } = this.props;
     return (
       <pre className={!plugins ? "" : plugins.join(" ")}>
         <code ref={this.ref} className={`language-${language}`}>

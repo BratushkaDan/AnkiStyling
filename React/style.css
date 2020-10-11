@@ -3,24 +3,24 @@
     src: url("_JetBrainsMono-Light.ttf") format("truetype");
 }
 
-.card {
-    font-family: arial;
+#card, #back_card {
+    font-family: JetBrains, sans-serif;
     font-size: 20px;
     text-align: center;
-    color: black;
-    background-color: white;
+    color: #fff;
+}
+
+html pre {
+    background: #2F2F31 !important;
+    width: auto;
+    overflow: auto;
 }
 
 code {
-    font-family: JetBrains, monospace;
+    font-family: JetBrains, sans-serif;
     font-size: 18px;
     overflow-wrap: normal;
-}
-
-@media (max-width: 1280px) {
-    code {
-        width: 1500px;
-    }
+    width: inherit;
 }
 
 div.code_container {

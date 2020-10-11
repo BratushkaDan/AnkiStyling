@@ -1,13 +1,13 @@
 # Стили, которые предстоит сделать:
 1. Typescript
-2. React TSX
+2. Index TSX
 3. HTML
 4. CSS
 5. SCSS
-6. React Bootstrap
+6. Index Bootstrap
 
 # Стили, в которые предстоит добавить front, back, links 
-* Javascript, React JSX
+* Index, Index JSX
 
 # Стили, которые предстоит добавить как отдельные
 1. Норвежский
