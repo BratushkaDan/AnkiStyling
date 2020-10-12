@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "Menlo";
+    src: url("_menlo-Regular.ttf") format("truetype");
+}
+img {
+    display: block;
+    max-width: 100%;
+    max-height: none;
+    margin: 5px auto;
+}
+b, i, u, sup, sub {
+    display: inline;
+}
+html:before {
+    background: #8A8D91 url("_wallpaper1.png") no-repeat center center;
+/*#18222c - dark gray;
+#1C3144 - dark blue-gray;
+#b3cee1 - mild blue;
+#d5cef7 - mild violet;
+#7b6f71 - brown;
+#efd5e0 - mild pink;
+#2F242C - dark brown;
+#645E9D - purple;
+#EEC584 - gold yellow;
+#E3B505 - gold orange;
+#A390E4 - mild purple;
+#9C89B8  - пурпурный;
+#734B5E - eggplant;
+#565857 - middle gray;
+#BCBDC0 - light gray;
+#8A8D91 - light-middle gray;
+*/
+    background-size: cover;
+    width: 100%;
+    height: 200%;
+    display: block;
+    content: "";
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0px;
+    z-index: -1;
+    /*filter: blur(8px);*/
+}
+
+
+.cloze, .nightMode.cloze {
+    font-weight: normal;
+    color: #000;
+}
+#card, #back_card {
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 15px 5px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    box-shadow: 2px 2px 12px black;
+    text-shadow: 2px 1px 90px black;
+}
+#card {
+    min-height: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    background: #FFF;
+}
+#card.unseen {
+    border-radius: 8px;
+}
+
+#back_card {
+    min-height: 30px;
+    background: #154360;
+// background: #154360;
+// background: #F0B27A;
+// background: #FF9333;
+//    background: #4287f5;
+//    background: #18ADAB;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+/* Standart font card styling */
+
+.card {
+    font-family: Menlo, sans-serif;
+    font-size: 22px;
+    text-align: center;
+    word-break: break-word;
+    letter-spacing: -.05rem!important;
+}
+/* Styling for highlights of BACK */
+
+#back_card {
+    color: #EADEDA; /*#fff*/
+}
+#back_card i {
+    color: #fde74c;
+    font-style: normal;
+}
+#back_card b {
+    color: #ff9f0a;
+    font-weight: normal;
+}
+#back_card sup, sub {
+    vertical-align: baseline;
+}
+#back_card sup {
+    color: #483A58;
+    font-size: inherit;
+}
+#back_card u {
+    color: #9bf6ff; /*#00E5E8*/
+    text-decoration: none;
+}
+#back_card sub {
+    color: #023e7d;
+    font-size: 0.7em;
+}
+
+/* Styling for highlights of FRONT */
+#card {
+    color: #016EA6;
+}
+#card u {
+    color: #9c6d9c!important; /* orche - #C36F09 */
+    text-decoration: none;
+}
+#card i {
+    color: #5E747F; /*#332c23*/
+    font-style: normal;
+}
+#card b {
+    color: #A63C06!important;
+    font-weight: normal;
+}
+#card sup, sub {
+    vertical-align: baseline;
+}
+#card sup {
+    color: #F6C050;
+    font-size: inherit;
+}
+
+#card sub {
+    color: #326771;
+    font-size: 0.7em;
+}

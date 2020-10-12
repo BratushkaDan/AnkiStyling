@@ -5,6 +5,5 @@ const copy = require('clipboardy');
 
 let code = copy.readSync();
 let html = Prism.highlight(code, Prism.languages.jsx, 'jsx');
-// let html = PrismJsx.highlight();
 html = `<div class="code_container"><pre><code>${html}</code></pre></div>`;
 copy.write(html);

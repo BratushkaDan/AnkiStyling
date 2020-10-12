@@ -10,6 +10,7 @@ div.code_container {
 html, #wrapper {
     background: #2f2f31;
 }
+
 #wrapper {
     font-family: JetBrains, sans-serif;
     font-size: 20px;
@@ -90,6 +91,10 @@ pre[class*="language-"] {
     color: #e2777a;
 }
 
+.token.variable {
+    color: #E06C75;
+}
+
 .token.function-name {
     color: #6196cc;
 }
@@ -118,8 +123,7 @@ pre[class*="language-"] {
 .token.string,
 .token.attr-value
 .token.char,
-.token.regex,
-.token.variable {
+.token.regex {
     color: #98C379;
 }
 
