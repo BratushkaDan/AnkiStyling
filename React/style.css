@@ -3,11 +3,14 @@
     src: url("_JetBrainsMono-Light.ttf") format("truetype");
 }
 
-html {
-    background: #2f2f31;
+div.code_container {
+    text-align: left;
 }
 
-#card, #back_card {
+html, #wrapper {
+    background: #2f2f31;
+}
+#wrapper {
     font-family: JetBrains, sans-serif;
     font-size: 20px;
     text-align: center;
@@ -15,9 +18,8 @@ html {
 }
 
 html pre {
-    background: #2F2F31 !important;
-    width: auto;
-    overflow: visible;
+    background: #2F2F31;
+    overflow-wrap: normal;
 }
 
 code {
@@ -25,10 +27,6 @@ code {
     font-size: 18px;
     overflow-wrap: normal;
     width: inherit;
-}
-
-div.code_container {
-    text-align: left;
 }
 
 /*       LIBRARY CODE      */
