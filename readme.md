@@ -7,3 +7,4 @@
 * Typescript
 * CSS = SCSS
 * HTML
+* Python
