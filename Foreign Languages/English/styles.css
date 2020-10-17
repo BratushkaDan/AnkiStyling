@@ -2,15 +2,22 @@
     font-family: "Menlo";
     src: url("_menlo-Regular.ttf") format("truetype");
 }
+
+html, body {
+    margin: 0;
+}
+
 img {
     display: block;
     max-width: 100%;
     max-height: none;
     margin: 5px auto;
 }
+
 b, i, u, sup, sub {
     display: inline;
 }
+
 html:before {
     background: #EEC584 url("_wallpaper1.png") no-repeat center center;
     /*#18222c - dark gray;
@@ -40,7 +47,7 @@ html:before {
     right: 0;
     top: 0px;
     z-index: -1;
-/*    filter: blur(8px);*/
+    /*    filter: blur(8px);*/
 }
 
 
@@ -48,11 +55,12 @@ html:before {
     font-weight: normal;
     color: #000;
 }
+
 #card, #back_card {
     margin: 0 auto;
     box-sizing: border-box;
     padding: 15px 5px;
-    width: 100%;
+    width: 95%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,12 +69,15 @@ html:before {
     box-shadow: 2px 2px 12px black;
     text-shadow: 2px 1px 90px black;
 }
+
 #card {
+    margin-top: 8px;
     min-height: 0;
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;
     background: #FFF;
 }
+
 #card.unseen {
     border-radius: 8px;
 }
@@ -77,6 +88,7 @@ html:before {
     border-top-left-radius: 0;
     border-top-right-radius: 0;
 }
+
 /* Standart font card styling */
 
 .card {
@@ -84,32 +96,39 @@ html:before {
     font-size: 22px;
     text-align: center;
     word-break: break-word;
-    letter-spacing: -.05rem!important;
+    letter-spacing: -.05rem !important;
 }
+
 /* Styling for highlights of FRONT */
 
 #back_card {
     color: #FFF;
 }
+
 #back_card i {
     color: #fde74c;
     font-style: normal;
 }
+
 #back_card b {
     color: #264653;
     font-weight: normal;
 }
+
 #back_card sup, sub {
     vertical-align: baseline;
 }
+
 #back_card sup {
     color: #483A58;
     font-size: inherit;
 }
+
 #back_card u {
     color: #9bf6ff;
     text-decoration: none;
 }
+
 #back_card sub {
     color: #023e7d;
     font-size: 0.7em;
@@ -119,25 +138,31 @@ html:before {
 #card {
     color: #016EA6;
 }
+
 #card i {
     color: #18ADAB;
     font-style: normal;
 }
+
 #card b {
-    color: #9c6d9c!important;
+    color: #9c6d9c !important;
     font-weight: normal;
 }
+
 #card sup, sub {
     vertical-align: baseline;
 }
+
 #card sup {
     color: #F6C050;
     font-size: inherit;
 }
+
 #card u {
     color: #333B45;
     text-decoration: none;
 }
+
 #card sub {
     color: #326771;
     font-size: 0.7em;

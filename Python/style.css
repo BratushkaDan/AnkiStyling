@@ -3,6 +3,46 @@
     src: url("_JetBrainsMono-Light.ttf") format("truetype");
 }
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: calc(100% - 10px);
+    max-height: none;
+    margin: 5px auto;
+}
+
+div.comment {
+    width: calc(100% - 10px);
+    border: 2px solid black;
+    border-radius: 6px;
+    background: #232131;
+    padding: 5px;
+    box-sizing: border-box;
+    text-align: center;
+    margin: 5px 0 0 5px;
+}
+
+div.comment i {
+    /*font-style: normal;*/
+    color: #e2777a;
+}
+
+div.comment b {
+    font-weight: normal;
+    color: #9bf6ff;
+}
+
+div.comment u {
+    background: orange;
+    font-weight: 600;
+    text-decoration: none;
+    color: black;
+}
+
 div.code_container {
     text-align: left;
 }
@@ -14,13 +54,13 @@ html, #wrapper {
 #wrapper {
     font-family: JetBrains, sans-serif;
     font-size: 20px;
-    text-align: center;
     color: #fff;
 }
 
 html pre {
     background: #2F2F31;
     overflow-wrap: normal;
+    padding-left: 10px;
 }
 
 code {
@@ -28,6 +68,54 @@ code {
     font-size: 18px;
     overflow-wrap: normal;
     width: inherit;
+}
+
+@keyframes rainbow-background {
+    0% {
+        color: #ff0000;
+    }
+    8.333% {
+        color: #ff8000;
+    }
+    16.667% {
+        color: #ffff00;
+    }
+    25.000% {
+        color: #80ff00;
+    }
+    33.333% {
+        color: #00ff00;
+    }
+    41.667% {
+        color: #00ff80;
+    }
+    50.000% {
+        color: #00ffff;
+    }
+    58.333% {
+        color: #0080ff;
+    }
+    66.667% {
+        color: #0000ff;
+    }
+    75.000% {
+        color: #8000ff;
+    }
+    83.333% {
+        color: #ff00ff;
+    }
+    91.667% {
+        color: #ff0080;
+    }
+    100% {
+        color: #ff0000;
+    }
+}
+
+div.card_hidden code .cloze {
+    animation-iteration-count: infinite;
+    animation-name: rainbow-background;
+    animation-duration: 3s;
 }
 
 /*       LIBRARY CODE      */
