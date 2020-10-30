@@ -79,6 +79,7 @@ html pre {
     background: #2F2F31;
     overflow-wrap: normal;
     padding-left: 10px;
+    line-height: 1.35;
 }
 
 pre, code {

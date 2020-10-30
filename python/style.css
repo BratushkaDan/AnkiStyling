@@ -79,6 +79,7 @@ html pre {
     background: #2F2F31;
     overflow-wrap: normal;
     padding-left: 10px;
+    line-height: 1.35;
 }
 
 pre, code {
@@ -139,7 +140,6 @@ div.card_hidden .cloze {
 .cloze {
     font-weight: normal !important;
 }
-
 /*       LIBRARY CODE      */
 code[class*="language-"],
 pre[class*="language-"] {
