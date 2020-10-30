@@ -20,25 +20,7 @@ b, i, u, sup, sub {
 }
 
 html:before {
-    background: #303236 url("_wallpaper1.png") no-repeat center center;
-    /*
-#18222c - dark gray;
-#1C3144 - dark blue-gray;
-#b3cee1 - mild blue;
-#d5cef7 - mild violet;
-#7b6f71 - brown;
-#efd5e0 - mild pink;
-#2F242C - dark brown;
-#645E9D - purple;
-#EEC584 - gold yellow;
-#E3B505 - gold orange;
-#A390E4 - mild purple;
-#9C89B8  - пурпурный;
-#734B5E - eggplant;
-#565857 - middle gray;
-#BCBDC0 - light gray;
-#8A8D91 - light-middle gray;
-    */
+    background: #1c3144 url("_wallpaper1.png") no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 200%;
@@ -48,7 +30,8 @@ html:before {
     left: 0;
     right: 0;
     top: 0;
-    z-index: -1
+    z-index: -1;
+    filter: blur(6px);
 }
 
 .cloze, .nightMode.cloze {

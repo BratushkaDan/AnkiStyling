@@ -19,11 +19,29 @@ div.comment {
     width: calc(100% - 10px);
     border: 2px solid black;
     border-radius: 6px;
-    background: #232131;
+    background: #202022;
     padding: 5px;
     box-sizing: border-box;
     text-align: center;
     margin: 5px 0 0 5px;
+}
+
+@media (min-width: 800px) {
+    div.comment {
+        width: calc(680px);
+    }
+}
+
+@media (min-width: 1100px) {
+    div.comment {
+        width: calc(770px);
+    }
+}
+
+@media (min-width: 1300px) {
+    div.comment {
+        width: calc(850px);
+    }
 }
 
 div.comment i {
@@ -63,7 +81,7 @@ html pre {
     padding-left: 10px;
 }
 
-code {
+pre, code {
     font-family: JetBrains, sans-serif;
     font-size: 18px;
     overflow-wrap: normal;
@@ -112,12 +130,15 @@ code {
     }
 }
 
-div.card_hidden code .cloze {
+div.card_hidden .cloze {
     animation-iteration-count: infinite;
     animation-name: rainbow-background;
     animation-duration: 3s;
 }
 
+.cloze {
+    font-weight: normal !important;
+}
 /*       LIBRARY CODE      */
 code[class*="language-"],
 pre[class*="language-"] {
@@ -179,10 +200,6 @@ pre[class*="language-"] {
     color: #e2777a;
 }
 
-.token.variable {
-    color: #E06C75;
-}
-
 .token.function-name {
     color: #6196cc;
 }
@@ -211,7 +228,8 @@ pre[class*="language-"] {
 .token.string,
 .token.attr-value
 .token.char,
-.token.regex {
+.token.regex,
+.token.variable {
     color: #98C379;
 }
 
