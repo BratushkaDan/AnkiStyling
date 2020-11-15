@@ -1,6 +1,6 @@
 @font-face {
   font-family: "FiraCode";
-  src: url("FiraCode.ttf") format("truetype");
+  src: url("_FiraCode.ttf") format("truetype");
 }
 
 html, #wrapper {
@@ -8,7 +8,7 @@ html, #wrapper {
 }
 
 #wrapper {
-  font-family: JetBrains, sans-serif;
+  font-family: FiraCode, sans-serif;
   font-size: 20px;
   color: #fff;
 }
