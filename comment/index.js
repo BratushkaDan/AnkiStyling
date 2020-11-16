@@ -1,2 +1,2 @@
 const copy = require('clipboardy');
-copy.write(`<div class="comment">${copy.readSync()}</div>`);
+copy.write(`<div class="comment"><div>${copy.readSync()}</div></div>`);
