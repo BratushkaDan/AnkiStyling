@@ -100,12 +100,21 @@ pre, code {
   }
 }
 
-div.card_hidden .cloze {
-  animation-iteration-count: infinite;
-  animation-name: rainbow-background;
-  animation-duration: 3s;
+div.code_container i {
+  font-style: normal;
 }
 
-.cloze {
-  font-weight: normal !important;
+div#card:not(.card_hidden) div.code_container i, div.code_container u {
+  text-decoration: none;
+  background: #4A4D50;
 }
+
+  div.card_hidden .cloze {
+    animation-iteration-count: infinite;
+    animation-name: rainbow-background;
+    animation-duration: 3s;
+  }
+
+  .cloze {
+    font-weight: normal !important;
+  }
