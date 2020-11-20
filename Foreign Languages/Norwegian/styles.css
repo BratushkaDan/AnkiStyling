@@ -20,7 +20,7 @@ b, i, u, sup, sub {
 }
 
 html:before {
-    background: #303236 url("_wallpaper1.png") no-repeat center center;
+    background: #222 url("_wallpaper1.png") no-repeat center center;
     /*
 #222 - dark dark gray - current (02.11.20)
 #18222c - dark gray;
@@ -103,7 +103,7 @@ html:before {
 }
 
 #back_card {
-    color: #eadeda
+    color: #fff;
 }
 
 #back_card i {
