@@ -1,4 +1,4 @@
-div.code_container.css, div.code_container.scss {
+div.code_container.css {
   .token.comment,
   .token.block-comment,
   .token.prolog,
@@ -47,7 +47,7 @@ div.code_container.css, div.code_container.scss {
   }
 
   .token.string,
-  .token.attr-value
+  .token.attr-value,
   .token.char,
   .token.regex {
     color: #98C379;

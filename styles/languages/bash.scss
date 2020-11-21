@@ -1,4 +1,4 @@
-div.code_container.javascript {
+div.code_container.bash {
   .token.comment,
   .token.block-comment,
   .token.prolog,
@@ -15,6 +15,10 @@ div.code_container.javascript {
   .token.namespace,
   .token.deleted {
     color: #e2777a;
+  }
+
+  .token.variable {
+    color: #E06C75;
   }
 
   .token.function-name {
@@ -45,8 +49,7 @@ div.code_container.javascript {
   .token.string,
   .token.attr-value,
   .token.char,
-  .token.regex,
-  .token.variable {
+  .token.regex {
     color: #98C379;
   }
 

@@ -1,4 +1,4 @@
-div.code_container.javascript {
+div.code_container.mongo {
   .token.comment,
   .token.block-comment,
   .token.prolog,
@@ -17,7 +17,11 @@ div.code_container.javascript {
     color: #e2777a;
   }
 
-  .token.function-name {
+  .token.variable {
+    color: #E06C75;
+  }
+
+  .token.function-name, .token.number {
     color: #6196cc;
   }
 
@@ -25,7 +29,6 @@ div.code_container.javascript {
     color: #61AEEF;
   }
 
-  .token.number,
   .token.property,
   .token.class-name,
   .token.constant,
@@ -45,8 +48,7 @@ div.code_container.javascript {
   .token.string,
   .token.attr-value,
   .token.char,
-  .token.regex,
-  .token.variable {
+  .token.regex {
     color: #98C379;
   }
 
