@@ -1,4 +1,4 @@
-div.code_container.python {
+div.code_container.graphql {
   .token.comment,
   .token.block-comment,
   .token.prolog,
@@ -13,12 +13,9 @@ div.code_container.python {
 
   .token.tag,
   .token.namespace,
-  .token.deleted {
+  .token.deleted,
+  .token.attr-name {
     color: #e2777a;
-  }
-
-  .token.variable {
-    color: #E06C75;
   }
 
   .token.function-name {
@@ -41,28 +38,21 @@ div.code_container.python {
   .token.selector,
   .token.important,
   .token.atrule,
-  .token.keyword {
-    color: #C679DD;
-  }
-
+  .token.keyword,
   .token.builtin {
-    color: #82AAFF;
+    color: #C679DD;
   }
 
   .token.string,
   .token.attr-value,
   .token.char,
-  .token.regex {
+  .token.regex,
+  .token.variable {
     color: #98C379;
   }
 
   .token.parameter {
     color: #9ACBD9;
-  }
-
-  span.token.keyword + span.token.punctuation + span.token.function,
-  .token.attr-name {
-    color: #E5C17C;
   }
 
   .token.operator,

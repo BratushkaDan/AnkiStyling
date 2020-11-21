@@ -1,4 +1,4 @@
-div.code_container.python {
+div.code_container.swift {
   .token.comment,
   .token.block-comment,
   .token.prolog,
@@ -17,10 +17,6 @@ div.code_container.python {
     color: #e2777a;
   }
 
-  .token.variable {
-    color: #E06C75;
-  }
-
   .token.function-name {
     color: #6196cc;
   }
@@ -33,7 +29,8 @@ div.code_container.python {
   .token.property,
   .token.class-name,
   .token.constant,
-  .token.symbol {
+  .token.symbol,
+  .token.builtin {
     color: #f8c555;
   }
 
@@ -45,14 +42,11 @@ div.code_container.python {
     color: #C679DD;
   }
 
-  .token.builtin {
-    color: #82AAFF;
-  }
-
   .token.string,
   .token.attr-value,
   .token.char,
-  .token.regex {
+  .token.regex,
+  .token.variable {
     color: #98C379;
   }
 

@@ -1,4 +1,5 @@
-div.code_container.python {
+/* Includes java and kotlin */
+div.code_container.java {
   .token.comment,
   .token.block-comment,
   .token.prolog,
@@ -14,11 +15,7 @@ div.code_container.python {
   .token.tag,
   .token.namespace,
   .token.deleted {
-    color: #e2777a;
-  }
-
-  .token.variable {
-    color: #E06C75;
+    color: #EAA2A2;
   }
 
   .token.function-name {
@@ -29,30 +26,37 @@ div.code_container.python {
     color: #61AEEF;
   }
 
-  .token.number,
+  .token.number {
+    color: #6897BB;
+  }
+
   .token.property,
   .token.class-name,
   .token.constant,
-  .token.symbol {
-    color: #f8c555;
+  .token.symbol,
+  .token.directive-hash,
+  .token.directive.keyword {
+    color: #FED5AF;
   }
 
   .token.boolean,
   .token.selector,
   .token.important,
   .token.atrule,
-  .token.keyword {
+  .token.expression {
     color: #C679DD;
   }
 
+  .token.keyword,
   .token.builtin {
-    color: #82AAFF;
+    color: #FF9F38;
   }
 
   .token.string,
   .token.attr-value,
   .token.char,
-  .token.regex {
+  .token.regex,
+  .token.variable {
     color: #98C379;
   }
 
