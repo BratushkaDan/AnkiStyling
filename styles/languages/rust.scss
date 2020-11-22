@@ -1,4 +1,4 @@
-div.code_container.javascript {
+div.code_container.rust {
   .token.comment,
   .token.block-comment,
   .token.prolog,
@@ -7,7 +7,7 @@ div.code_container.javascript {
     color: #999;
   }
 
-  .token.punctuation, .token.regex-delimiter {
+  .token.punctuation {
     color: rgb(136, 198, 190);
   }
 
@@ -17,21 +17,24 @@ div.code_container.javascript {
     color: #e2777a;
   }
 
-  .token.function-name,
-  .token.escape {
+  .token.function {
+    color: #FFC66D;
+  }
+
+  .token.function-definition {
     color: #6196cc;
   }
 
-  .token.function {
-    color: #61AEEF;
+  .token.number {
+    color: #6897BB;
   }
 
-  .token.number,
   .token.property,
   .token.class-name,
   .token.constant,
   .token.symbol,
-  .token.regex-flags {
+  .token.directive-hash,
+  .token.directive.keyword {
     color: #f8c555;
   }
 
@@ -39,17 +42,20 @@ div.code_container.javascript {
   .token.selector,
   .token.important,
   .token.atrule,
+  .token.expression {
+    color: #C679DD;
+  }
+
   .token.keyword,
   .token.builtin {
-    color: #C679DD;
+    color: #FF9F38;
   }
 
   .token.string,
   .token.attr-value,
   .token.char,
   .token.regex,
-  .token.variable,
-  .token.range {
+  .token.variable {
     color: #98C379;
   }
 

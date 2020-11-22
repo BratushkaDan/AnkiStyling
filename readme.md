@@ -37,11 +37,11 @@
 <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/MongoDB_Logo.svg/1280px-MongoDB_Logo.svg.png" width="300" height="100">
 * json
 <br><img src="https://image.flaticon.com/icons/png/512/136/136443.png" width="100" height="100">
-* -- dart
+* dart
 <br><img src="https://avatars3.githubusercontent.com/u/1609975?s=400&v=4" width="100" height="100">
-* -- elm
+* elm
 <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Elm_logo.svg/1024px-Elm_logo.svg.png" width="100" height="100">
-* -- rust
+* rust
 <br><img src="https://upload.wikimedia.org/wikipedia/ru/thumb/d/d5/Rust_programming_language_black_logo.svg/1200px-Rust_programming_language_black_logo.svg.png" width="100" height="100">
 * swift
 <br><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Swift_logo.svg/1200px-Swift_logo.svg.png" width="110" height="100">
