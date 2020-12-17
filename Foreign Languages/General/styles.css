@@ -1,11 +1,12 @@
 @font-face {
     font-family: "Menlo";
-    src: url("_menlo-Regular.ttf") format("truetype")
+    src: url(_menlo-Regular.ttf) format("truetype")
 }
 
-html, body {
+html,
+body {
     padding: 0;
-    margin: 0
+    margin: 0;
 }
 
 img {
@@ -15,12 +16,16 @@ img {
     margin: 5px auto
 }
 
-b, i, u, sup, sub {
+b,
+i,
+u,
+sup,
+sub {
     display: inline
 }
 
 html:before {
-    background: #1c3144 url("_wallpaper1.png") no-repeat center center;
+    background: #1c3144 url(_wallpaper1.png) no-repeat center center;
     background-size: cover;
     width: 100%;
     height: 200%;
@@ -31,15 +36,17 @@ html:before {
     right: 0;
     top: 0;
     z-index: -1;
-    filter: blur(6px);
+    filter: blur(6px)
 }
 
-.cloze, .nightMode.cloze {
-    font-weight: normal;
+.cloze,
+.nightMode.cloze {
+    font-weight: 400;
     color: #000
 }
 
-#card, #back_card {
+#card,
+#back_card {
     margin: 0 auto;
     box-sizing: border-box;
     padding: 15px 5px;
@@ -49,7 +56,7 @@ html:before {
     justify-content: center;
     align-items: center;
     border-radius: 8px;
-    box-shadow: 2px 2px 12px black;
+    box-shadow: 2px 2px 12px #000
 }
 
 #card {
@@ -60,18 +67,13 @@ html:before {
     background: #FFF
 }
 
-#card.unseen {
+#card.hidden {
     border-radius: 8px
 }
 
 #back_card {
     min-height: 30px;
     background: #154360;
-    /*background: #154360;*/
-    /*background: #f0b27a;*/
-    /*background: #ff9333;*/
-    /*background: #4287f5;*/
-    /*background: #18adab;*/
     border-top-left-radius: 0;
     border-top-right-radius: 0
 }
@@ -85,7 +87,7 @@ html:before {
 }
 
 #back_card {
-    color: #fff;
+    color: #fff
 }
 
 #back_card i {
@@ -95,26 +97,12 @@ html:before {
 
 #back_card b {
     color: #ff9f0a;
-    font-weight: normal
-}
-
-#back_card sup, sub {
-    vertical-align: baseline
-}
-
-#back_card sup {
-    color: #483a58;
-    font-size: inherit
+    font-weight: 400
 }
 
 #back_card u {
     color: #9bf6ff;
     text-decoration: none
-}
-
-#back_card sub {
-    color: #023e7d;
-    font-size: .7em
 }
 
 #card {
@@ -127,25 +115,18 @@ html:before {
 }
 
 #card i {
-    color: #5e747f;
+    color: #5e747f !important;
     font-style: normal
 }
 
 #card b {
-    color: #a63c06 !important;
-    font-weight: normal
+    color: #732802 !important;
+    font-weight: bold;
+    letter-spacing: -.2px;
 }
 
-#card sup, sub {
-    vertical-align: baseline
-}
-
-#card sup {
-    color: #f6c050;
-    font-size: inherit
-}
-
-#card sub {
-    color: #326771;
-    font-size: .7em
+#back_card sub, #card sub {
+    font-size: .6em;
+    font-style: normal !important;
+    text-decoration: none !important;
 }

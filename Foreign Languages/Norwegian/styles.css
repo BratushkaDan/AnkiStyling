@@ -78,14 +78,13 @@ html:before {
     background: #FFF
 }
 
-#card.unseen {
+#card.hidden {
     border-radius: 8px
 }
 
 #back_card {
     min-height: 30px;
     background: #154360;
-    /*background: #154360;*/
     /*background: #f0b27a;*/
     /*background: #ff9333;*/
     /*background: #4287f5;*/
@@ -103,7 +102,7 @@ html:before {
 }
 
 #back_card {
-    color: #fff;
+    color: #fff
 }
 
 #back_card i {
@@ -113,26 +112,12 @@ html:before {
 
 #back_card b {
     color: #ff9f0a;
-    font-weight: normal
-}
-
-#back_card sup, sub {
-    vertical-align: baseline
-}
-
-#back_card sup {
-    color: #483a58;
-    font-size: inherit
+    font-weight: 400
 }
 
 #back_card u {
     color: #9bf6ff;
     text-decoration: none
-}
-
-#back_card sub {
-    color: #023e7d;
-    font-size: .7em
 }
 
 #card {
@@ -151,19 +136,5 @@ html:before {
 
 #card b {
     color: #a63c06 !important;
-    font-weight: normal
-}
-
-#card sup, sub {
-    vertical-align: baseline
-}
-
-#card sup {
-    color: #f6c050;
-    font-size: inherit
-}
-
-#card sub {
-    color: #326771;
-    font-size: .7em
+    font-weight: 400
 }
