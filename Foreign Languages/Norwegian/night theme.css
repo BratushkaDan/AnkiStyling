@@ -9,7 +9,7 @@ html,body {
 }
 
 ::selection {
-	background: #F1FFFA;
+	background: #f1fffa
 }
 
 img {
@@ -59,7 +59,7 @@ html:before {
 	align-items: center;
 	border-radius: 8px;
 	width: 95%;
-	margin: 0 auto;
+	margin: 0 auto
 }
 
 #card {
@@ -68,6 +68,7 @@ html:before {
 	border-bottom-left-radius: 0;
 	border-bottom-right-radius: 0;
 	background: #18181b;
+	color: #d6d8da;
 }
 
 #card.hidden {
@@ -96,7 +97,7 @@ html:before {
 }
 
 #back_card b {
-	color: #ff9f0a; /*#f96676*/
+	color: #ff9f0a;
 	font-weight: 400
 }
 
@@ -105,17 +106,13 @@ html:before {
 	text-decoration: none
 }
 
-#card {
-	color: #adadb8
-}
-
 #card u {
 	color: #9c6d9c !important;
 	text-decoration: none
 }
 
 #card i {
-	color: #96897B;
+	color: #96897b;
 	font-style: normal
 }
 
