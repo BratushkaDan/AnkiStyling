@@ -1,2 +1,10 @@
 const copy = require('clipboardy');
-copy.write(`<div class="comment"><div>${copy.readSync()}</div></div>`);
+let result = '';
+
+for (let str of copy.readSync().split('\n')) {
+  if (str.length) {
+    result += str + '<br>';
+  }
+}
+
+copy.write(`<div class="comment"><div>${result}</div></div>`);
